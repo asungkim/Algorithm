@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83680c27-5be6-48c6-a746-a4679fa78be8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/BaekJoon/Greedy/BOJ_11508.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaekJoon/Greedy/BOJ_11047.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +68,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.BJ_2133.executor": "Run",
+    "Application.BOJ_11047.executor": "Run",
     "Application.BOJ_11508.executor": "Run",
+    "Application.BOJ_11508_First.executor": "Run",
     "Application.BOJ_1343.executor": "Run",
     "Application.BOJ_1343_Second.executor": "Run",
     "Application.BOJ_14916.executor": "Run",
@@ -94,7 +97,20 @@
       <recent name="DP" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BOJ_11508_First">
+  <component name="RunManager" selected="Application.BOJ_11047">
+    <configuration name="BOJ_11047" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Greedy.BOJ_11047" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Greedy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BOJ_11508_First" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Greedy.BOJ_11508_First" />
       <module name="algorithm" />
@@ -134,19 +150,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BOJ_14916" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Greedy.BOJ_14916" />
-      <module name="algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Greedy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="DP.BOJ_14916" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DP.BOJ_14916" />
       <module name="algorithm" />
@@ -162,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BOJ_11047" />
         <item itemvalue="Application.BOJ_11508_First" />
         <item itemvalue="Application.BOJ_1343_Second" />
         <item itemvalue="Application.BOJ_1343_First" />
         <item itemvalue="Application.DP.BOJ_14916" />
-        <item itemvalue="Application.BOJ_14916" />
       </list>
     </recent_temporary>
   </component>
@@ -186,7 +189,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1757380507015</updated>
-      <workItem from="1757380508122" duration="30251000" />
+      <workItem from="1757380508122" duration="32639000" />
     </task>
     <servers />
   </component>
