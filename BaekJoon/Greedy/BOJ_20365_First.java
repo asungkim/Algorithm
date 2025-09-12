@@ -2,7 +2,7 @@ package Greedy;
 
 import java.util.Scanner;
 
-public class BOJ_20365 {
+public class BOJ_20365_First {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
