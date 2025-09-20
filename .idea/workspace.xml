@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83680c27-5be6-48c6-a746-a4679fa78be8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/BaekJoon/Greedy/BOJ_19598.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaekJoon/Greedy/BOJ_21758.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,61 +65,49 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.BJ_2133.executor": "Run",
-    "Application.BOJ_11047.executor": "Run",
-    "Application.BOJ_11508.executor": "Run",
-    "Application.BOJ_11508_First.executor": "Run",
-    "Application.BOJ_1343.executor": "Run",
-    "Application.BOJ_1343_Second.executor": "Run",
-    "Application.BOJ_14916.executor": "Run",
-    "Application.BOJ_1541.executor": "Run",
-    "Application.BOJ_16953.executor": "Run",
-    "Application.BOJ_1931.executor": "Run",
-    "Application.BOJ_19598.executor": "Run",
-    "Application.BOJ_2011.executor": "Run",
-    "Application.BOJ_20300.executor": "Run",
-    "Application.BOJ_20365.executor": "Run",
-    "Application.BOJ_20365_Second.executor": "Run",
-    "Application.BOJ_21314.executor": "Run",
-    "Application.BOJ_2133.executor": "Run",
-    "Application.BOJ_2225.executor": "Run",
-    "Application.BOJ_9461.executor": "Run",
-    "Application.DP.BOJ_14916.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/asungkim/Desktop/MyFolder/Study/OwnProject/algorithm",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.BJ_2133.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BOJ_11047.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BOJ_11508.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BOJ_11508_First.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BOJ_1343.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BOJ_1343_Second.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BOJ_14916.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BOJ_1541.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BOJ_16953.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BOJ_1931.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BOJ_19598.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BOJ_2011.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BOJ_20300.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BOJ_20365.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BOJ_20365_Second.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BOJ_21314.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BOJ_2133.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BOJ_21758.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BOJ_2225.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BOJ_9461.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DP.BOJ_14916.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/asungkim/Desktop/MyFolder/Study/OwnProject/algorithm&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Greedy" />
       <recent name="DP" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BOJ_19598">
-    <configuration name="BOJ_1541" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Greedy.BOJ_1541" />
-      <module name="algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Greedy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.BOJ_21758">
     <configuration name="BOJ_16953" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Greedy.BOJ_16953" />
       <module name="algorithm" />
@@ -172,13 +160,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BOJ_21758" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Greedy.BOJ_21758" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Greedy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BOJ_21758" />
         <item itemvalue="Application.BOJ_19598" />
         <item itemvalue="Application.BOJ_1931" />
         <item itemvalue="Application.BOJ_21314" />
         <item itemvalue="Application.BOJ_16953" />
-        <item itemvalue="Application.BOJ_1541" />
       </list>
     </recent_temporary>
   </component>
@@ -204,7 +205,8 @@
       <workItem from="1758006835286" duration="92000" />
       <workItem from="1758029160898" duration="9717000" />
       <workItem from="1758078251731" duration="130000" />
-      <workItem from="1758189490461" duration="9269000" />
+      <workItem from="1758189490461" duration="14320000" />
+      <workItem from="1758326730948" duration="4000" />
     </task>
     <servers />
   </component>
