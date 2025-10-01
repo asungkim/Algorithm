@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83680c27-5be6-48c6-a746-a4679fa78be8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/BaekJoon/BruteForce/BOJ_2503.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaekJoon/BruteForce/BOJ_9079.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,6 +92,7 @@
     "Application.BOJ_21758.executor": "Run",
     "Application.BOJ_2225.executor": "Run",
     "Application.BOJ_2503.executor": "Run",
+    "Application.BOJ_9079.executor": "Run",
     "Application.BOJ_9461.executor": "Run",
     "Application.DP.BOJ_14916.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -112,22 +114,9 @@
       <recent name="DP" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BOJ_2503">
+  <component name="RunManager" selected="Application.BOJ_9079">
     <configuration name="BOJ_1436" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BruteForce.BOJ_1436" />
-      <module name="algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BruteForce.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BOJ_15721" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BruteForce.BOJ_15721" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
@@ -178,13 +167,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BOJ_9079" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BruteForce.BOJ_9079" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BruteForce.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BOJ_9079" />
         <item itemvalue="Application.BOJ_2503" />
         <item itemvalue="Application.BOJ_17484_DP" />
         <item itemvalue="Application.BOJ_17484_BF" />
         <item itemvalue="Application.BOJ_1436" />
-        <item itemvalue="Application.BOJ_15721" />
       </list>
     </recent_temporary>
   </component>
