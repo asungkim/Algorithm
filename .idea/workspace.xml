@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83680c27-5be6-48c6-a746-a4679fa78be8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/BaekJoon/DFS/BOJ_11403.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaekJoon/DFS/BOJ_2667.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -98,6 +98,7 @@
     "Application.BOJ_21758.executor": "Run",
     "Application.BOJ_2225.executor": "Run",
     "Application.BOJ_2503.executor": "Run",
+    "Application.BOJ_2667.executor": "Run",
     "Application.BOJ_9079.executor": "Run",
     "Application.BOJ_9461.executor": "Run",
     "Application.DP.BOJ_14916.executor": "Run",
@@ -121,7 +122,7 @@
       <recent name="DP" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BOJ_11403">
+  <component name="RunManager" selected="Application.BOJ_2667">
     <configuration name="BOJ_10552" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DFS.BOJ_10552" />
       <module name="algorithm" />
@@ -174,12 +175,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BOJ_1992" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BruteForce.BOJ_1992" />
+    <configuration name="BOJ_2667" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DFS.BOJ_2667" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BruteForce.*" />
+          <option name="PATTERN" value="DFS.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -189,11 +190,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BOJ_2667" />
         <item itemvalue="Application.BOJ_11403" />
         <item itemvalue="Application.BOJ_10552" />
         <item itemvalue="Application.BOJ_11724_BFS" />
         <item itemvalue="Application.BOJ_11724" />
-        <item itemvalue="Application.BOJ_1992" />
       </list>
     </recent_temporary>
   </component>
