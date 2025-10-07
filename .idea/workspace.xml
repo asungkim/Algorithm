@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83680c27-5be6-48c6-a746-a4679fa78be8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/BaekJoon/BackTracking/BOJ_15686.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaekJoon/BackTracking/BOJ_1759.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,6 +90,7 @@
     "Application.BOJ_16953.executor": "Run",
     "Application.BOJ_17484_BF.executor": "Run",
     "Application.BOJ_17484_DP.executor": "Run",
+    "Application.BOJ_1759.executor": "Run",
     "Application.BOJ_1931.executor": "Run",
     "Application.BOJ_19598.executor": "Run",
     "Application.BOJ_1992.executor": "Run",
@@ -128,20 +129,7 @@
       <recent name="DP" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BOJ_15686">
-    <configuration name="BOJ_1182" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BackTracking.BOJ_1182" />
-      <module name="algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BackTracking.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.BOJ_1759">
     <configuration name="BOJ_14888" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BackTracking.BOJ_14888" />
       <module name="algorithm" />
@@ -181,6 +169,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BOJ_1759" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BackTracking.BOJ_1759" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BackTracking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BOJ_6603" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BackTracking.BOJ_6603" />
       <module name="algorithm" />
@@ -196,11 +197,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BOJ_1759" />
         <item itemvalue="Application.BOJ_15686" />
         <item itemvalue="Application.BOJ_14889" />
         <item itemvalue="Application.BOJ_14888" />
         <item itemvalue="Application.BOJ_6603" />
-        <item itemvalue="Application.BOJ_1182" />
       </list>
     </recent_temporary>
   </component>
@@ -233,7 +234,7 @@
       <workItem from="1759241856972" duration="7852000" />
       <workItem from="1759326984548" duration="13416000" />
       <workItem from="1759536812074" duration="12582000" />
-      <workItem from="1759655239259" duration="19042000" />
+      <workItem from="1759655239259" duration="21041000" />
     </task>
     <servers />
   </component>
