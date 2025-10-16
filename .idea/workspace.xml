@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83680c27-5be6-48c6-a746-a4679fa78be8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/BaekJoon/Impl/BOJ_5430.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaekJoon/Impl/BOJ_14503.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,6 +84,7 @@
     "Application.BOJ_13975.executor": "Run",
     "Application.BOJ_1436.executor": "Run",
     "Application.BOJ_14502.executor": "Run",
+    "Application.BOJ_14503.executor": "Run",
     "Application.BOJ_14620.executor": "Run",
     "Application.BOJ_1475.executor": "Run",
     "Application.BOJ_14888.executor": "Run",
@@ -149,9 +150,9 @@
       <recent name="DP" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BOJ_5430">
-    <configuration name="BOJ_18111" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Impl.BOJ_18111" />
+  <component name="RunManager" selected="Application.BOJ_14503">
+    <configuration name="BOJ_14503" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Impl.BOJ_14503" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
@@ -163,8 +164,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BOJ_1966" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Impl.BOJ_1966" />
+    <configuration name="BOJ_18111" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Impl.BOJ_18111" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
@@ -217,11 +218,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BOJ_14503" />
         <item itemvalue="Application.BOJ_5430" />
         <item itemvalue="Application.BOJ_3085" />
         <item itemvalue="Application.BOJ_18111" />
         <item itemvalue="Application.BOJ_2108" />
-        <item itemvalue="Application.BOJ_1966" />
       </list>
     </recent_temporary>
   </component>
@@ -256,7 +257,7 @@
       <workItem from="1759536812074" duration="12582000" />
       <workItem from="1759655239259" duration="33158000" />
       <workItem from="1760362798312" duration="25946000" />
-      <workItem from="1760577695330" duration="14542000" />
+      <workItem from="1760577695330" duration="17298000" />
     </task>
     <servers />
   </component>
