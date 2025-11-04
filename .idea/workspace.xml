@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83680c27-5be6-48c6-a746-a4679fa78be8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/BaekJoon/Impl/BOJ_14891.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaekJoon/Impl/BOJ_15683.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -165,9 +165,9 @@
       <recent name="DP" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="BOJ_14499" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Impl.BOJ_14499" />
+  <component name="RunManager" selected="Application.BOJ_15683">
+    <configuration name="BOJ_14891" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Impl.BOJ_14891" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
@@ -179,8 +179,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BOJ_14891" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Impl.BOJ_14891" />
+    <configuration name="BOJ_15683" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Impl.BOJ_15683" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
@@ -233,11 +233,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BOJ_15683" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.BOJ_14891" />
         <item itemvalue="Application.BOJ_2573" />
         <item itemvalue="Application.BOJ_16236" />
-        <item itemvalue="Application.BOJ_14499" />
       </list>
     </recent_temporary>
   </component>
@@ -284,7 +284,7 @@
       <workItem from="1762051909936" duration="8201000" />
       <workItem from="1762092823539" duration="7461000" />
       <workItem from="1762174314158" duration="638000" />
-      <workItem from="1762220702648" duration="4000" />
+      <workItem from="1762220702648" duration="5100000" />
     </task>
     <servers />
   </component>
