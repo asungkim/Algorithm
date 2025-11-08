@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83680c27-5be6-48c6-a746-a4679fa78be8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/BaekJoon/Greedy/BOJ_1080.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaekJoon/Greedy/BOJ_1092.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/algorithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/algorithm.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,6 +73,7 @@
     &quot;Application.BOJ_10552.executor&quot;: &quot;Run&quot;,
     &quot;Application.BOJ_1080.executor&quot;: &quot;Run&quot;,
     &quot;Application.BOJ_10866.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BOJ_1092.executor&quot;: &quot;Run&quot;,
     &quot;Application.BOJ_11047.executor&quot;: &quot;Run&quot;,
     &quot;Application.BOJ_1138.executor&quot;: &quot;Run&quot;,
     &quot;Application.BOJ_1138_DFS.executor&quot;: &quot;Run&quot;,
@@ -139,6 +141,7 @@
     &quot;Application.BOJ_9079.executor&quot;: &quot;Run&quot;,
     &quot;Application.BOJ_9461.executor&quot;: &quot;Run&quot;,
     &quot;Application.DP.BOJ_14916.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main (1).executor&quot;: &quot;Run&quot;,
     &quot;Application.Main.executor&quot;: &quot;Run&quot;,
     &quot;Application.Test.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -166,7 +169,7 @@
       <recent name="DP" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BOJ_1080">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration name="BOJ_1080" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Greedy.BOJ_1080" />
       <module name="algorithm" />
@@ -180,12 +183,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BOJ_14891" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Impl.BOJ_14891" />
+    <configuration name="BOJ_1092" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Greedy.BOJ_1092" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Impl.*" />
+          <option name="PATTERN" value="Greedy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -206,15 +209,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BOJ_2573" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Impl.BOJ_2573" />
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Impl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -234,11 +231,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.BOJ_1092" />
         <item itemvalue="Application.BOJ_1080" />
         <item itemvalue="Application.BOJ_15683" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.BOJ_14891" />
-        <item itemvalue="Application.BOJ_2573" />
       </list>
     </recent_temporary>
   </component>
@@ -287,7 +284,11 @@
       <workItem from="1762174314158" duration="638000" />
       <workItem from="1762220702648" duration="5522000" />
       <workItem from="1762229689687" duration="2394000" />
-      <workItem from="1762318327257" duration="5000" />
+      <workItem from="1762318327257" duration="4612000" />
+      <workItem from="1762487820551" duration="18000" />
+      <workItem from="1762514239511" duration="2494000" />
+      <workItem from="1762571044876" duration="614000" />
+      <workItem from="1762577589132" duration="948000" />
     </task>
     <servers />
   </component>
