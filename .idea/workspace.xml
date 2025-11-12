@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83680c27-5be6-48c6-a746-a4679fa78be8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/BaekJoon/Impl/BOJ_2636.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaekJoon/Impl/BOJ_14719.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaekJoon/Impl/BOJ_2636.java" beforeDir="false" afterPath="$PROJECT_DIR$/BaekJoon/Impl/BOJ_2636.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,6 +95,7 @@
     "Application.BOJ_14502.executor": "Run",
     "Application.BOJ_14503.executor": "Run",
     "Application.BOJ_14620.executor": "Run",
+    "Application.BOJ_14719.executor": "Run",
     "Application.BOJ_1475.executor": "Run",
     "Application.BOJ_14888.executor": "Run",
     "Application.BOJ_14889.executor": "Run",
@@ -171,7 +173,7 @@
       <recent name="DP" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BOJ_2636">
+  <component name="RunManager" selected="Application.BOJ_14719">
     <configuration name="BOJ_1041" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DP.BOJ_1041" />
       <module name="algorithm" />
@@ -185,12 +187,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BOJ_1092" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Greedy.BOJ_1092" />
+    <configuration name="BOJ_14719" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Impl.BOJ_14719" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Greedy.*" />
+          <option name="PATTERN" value="Impl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -233,11 +235,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BOJ_14719" />
         <item itemvalue="Application.BOJ_2636" />
         <item itemvalue="Application.BOJ_1041" />
         <item itemvalue="Application.BOJ_17144" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.BOJ_1092" />
       </list>
     </recent_temporary>
   </component>
@@ -292,7 +294,7 @@
       <workItem from="1762571044876" duration="614000" />
       <workItem from="1762577589132" duration="3234000" />
       <workItem from="1762825273104" duration="15221000" />
-      <workItem from="1762907303770" duration="4242000" />
+      <workItem from="1762907303770" duration="12180000" />
     </task>
     <servers />
   </component>

@@ -16,6 +16,13 @@ public class BOJ_2636 {
     static boolean[][] visited;
     static boolean[][] outside;
 
+    /***
+     * 처음에는 치즈로 막혀있는 경우를 생각해서 0마다 bfs 탐색하겠다고 생각
+     * -> 내부의 0이 공기 노출을 시킴
+     * 다시 생각해보니 어차피 x 된 부분도 외부에 노출된 부분이므로 0에서 쭉 탐색하면 되겠다 판단
+     *
+     */
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
