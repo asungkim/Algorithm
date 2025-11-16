@@ -5,6 +5,7 @@ class Main {
 
     static int k;
     static int[] arr, sum;
+    static int[][] dp;
 
     public static void main(String[] args) throws IOException {
         Scanner sc = new Scanner(System.in);
@@ -20,21 +21,25 @@ class Main {
                 sum[i] = sum[i - 1] + arr[i];
             }
 
-            int[][] dp = new int[k + 1][k + 1];
-
-            for (int len = 2; len <= k; len++) {
-                for (int i = 1; i + len - 1 <= k; i++) {
-                    int j = i + len - 1;
-                    dp[i][j] = Integer.MAX_VALUE;
-
-                    for (int c = i; c < j; c++) {
-                        dp[i][j] = Math.min(dp[i][j], dp[i][c] + dp[c + 1][j] + (sum[j] - sum[i - 1]));
-                    }
-                }
+            dp = new int[k + 1][k + 1];
+            for (int i = 1; i <= k; i++) {
+                Arrays.fill(dp[i], Integer.MAX_VALUE);
             }
 
-            System.out.println(dp[1][k]);
+            // for (int len = 2; len <= k; len++) {
+            // for (int i = 1; i + len - 1 <= k; i++) {
+            // int j = i + len - 1;
+            // dp[i][j] = Integer.MAX_VALUE;
 
+            // for (int c = i; c < j; c++) {
+            // dp[i][j] = Math.min(dp[i][j], dp[i][c] + dp[c + 1][j] + (sum[j] - sum[i -
+            // 1]));
+            // }
+            // }
+            // }
+
+            // System.out.println(dp[1][k]);
+            System.out.println(recur(1, k));
         }
     }
 
