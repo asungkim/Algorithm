@@ -7,8 +7,7 @@ class Main {
     static int[] down1;
     static int[] up1;
 
-    static int[] down2;
-    static int[] up2;
+    static int[] crush;
 
     public static void main(String[] args) throws IOException {
         Scanner sc = new Scanner(System.in);
@@ -17,22 +16,24 @@ class Main {
         h = sc.nextInt();
         down1 = new int[n / 2];
         up1 = new int[n / 2];
-        down2 = new int[h + 2];
-        up2 = new int[h + 2];
 
-        for (int i = 0; i < n / 2; i++) {
-            int a = sc.nextInt();
-            int b = sc.nextInt();
-            down2[a]++;
-            up2[h - b + 1]++;
+        // crush[i] -> i에서의 충돌 수
+        crush = new int[h + 2];
+
+        for (int i = 0; i < n; i++) {
+            int x = sc.nextInt();
+
+            if (i % 2 == 0) {
+                crush[1] += 1;
+                crush[x + 1] -= 1;
+            } else {
+                crush[h - x + 1] += 1;
+                crush[h + 1] -= 1;
+            }
         }
 
         for (int i = 1; i <= h; i++) {
-            down2[i] += down2[i - 1];
-        }
-
-        for (int i = h; i >= 1; i--) {
-            up2[i] += up2[i + 1];
+            crush[i] += crush[i - 1];
         }
 
         // for (int i = 0; i < n / 2; i++) {
@@ -44,16 +45,15 @@ class Main {
         // Arrays.sort(up1);
 
         int min = Integer.MAX_VALUE;
-        int cnt = 1;
+        int cnt = 0;
 
         for (int i = 1; i <= h; i++) {
-            int diff = (down2[h] - down2[i - 1]) + (up2[1] - up2[i + 1]);
-
-            if (diff < min) {
-                min = diff;
+            if (crush[i] < min) {
+                min = crush[i];
                 cnt = 1;
-            } else if (diff == min)
+            } else if (crush[i] == min) {
                 cnt++;
+            }
         }
 
         // for (int i = 1; i <= h; i++) {
