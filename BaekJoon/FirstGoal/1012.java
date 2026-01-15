@@ -3,8 +3,9 @@ import java.util.*;
 
 class Main {
 
-    static int n, m, k;
-    static int[][] map;
+    static int m, n, k;
+    static int x, y;
+    static int map[][];
     static boolean[][] visited;
     static int[] dx = { -1, 0, 1, 0 };
     static int[] dy = { 0, -1, 0, 1 };
@@ -13,6 +14,7 @@ class Main {
         Scanner sc = new Scanner(System.in);
 
         int t = sc.nextInt();
+
         for (int i = 0; i < t; i++) {
             m = sc.nextInt();
             n = sc.nextInt();
@@ -22,8 +24,8 @@ class Main {
             visited = new boolean[n][m];
 
             for (int j = 0; j < k; j++) {
-                int x = sc.nextInt();
-                int y = sc.nextInt();
+                x = sc.nextInt();
+                y = sc.nextInt();
                 map[y][x] = 1;
             }
 
@@ -31,11 +33,12 @@ class Main {
             for (int j = 0; j < n; j++) {
                 for (int k = 0; k < m; k++) {
                     if (!visited[j][k] && map[j][k] == 1) {
-                        cnt++;
                         bfs(j, k);
+                        cnt++;
                     }
                 }
             }
+
             System.out.println(cnt);
         }
     }

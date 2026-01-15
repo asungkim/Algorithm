@@ -4,6 +4,7 @@ import java.util.*;
 class Main {
 
     static int n, k;
+    static boolean[] visited;
 
     public static void main(String[] args) throws IOException {
         Scanner sc = new Scanner(System.in);
@@ -11,28 +12,30 @@ class Main {
         n = sc.nextInt();
         k = sc.nextInt();
 
+        visited = new boolean[1000001];
         Queue<int[]> q = new LinkedList<>();
-        boolean[] visited = new boolean[100001];
-
         q.add(new int[] { n, 0 });
+        visited[n] = true;
+
         while (!q.isEmpty()) {
             int[] cur = q.poll();
-            int curX = cur[0];
 
             if (cur[0] == k) {
                 System.out.println(cur[1]);
                 return;
             }
 
-            int[] next = { curX - 1, curX + 1, curX * 2 };
+            int[] next = { cur[0] - 1, cur[0] + 1, cur[0] * 2 };
+
             for (int i = 0; i < 3; i++) {
-                int nx = next[i];
-                if (nx >= 0 && nx <= 100000 && !visited[nx]) {
-                    visited[nx] = true;
-                    q.add(new int[] { nx, cur[1] + 1 });
+                if (next[i] >= 0 && next[i] <= 100000) {
+                    if (!visited[next[i]]) {
+                        visited[next[i]] = true;
+                        q.add(new int[] { next[i], cur[1] + 1 });
+                    }
                 }
             }
         }
-    }
 
+    }
 }
