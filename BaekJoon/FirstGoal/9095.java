@@ -9,6 +9,8 @@ class Main {
     public static void main(String[] args) throws IOException {
         Scanner sc = new Scanner(System.in);
 
+        int t = sc.nextInt();
+
         dp = new int[12];
         dp[1] = 1;
         dp[2] = 2;
@@ -18,11 +20,10 @@ class Main {
             dp[i] = dp[i - 1] + dp[i - 2] + dp[i - 3];
         }
 
-        int t = sc.nextInt();
         for (int i = 0; i < t; i++) {
             n = sc.nextInt();
+
             System.out.println(dp[n]);
         }
-
     }
 }
