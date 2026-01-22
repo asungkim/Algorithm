@@ -4,34 +4,33 @@ import java.util.*;
 class Main {
 
     static int n, m;
+    static List<Integer>[] list;
     static boolean[] visited;
-    static Map<Integer, List<Integer>> map;
 
     public static void main(String[] args) throws IOException {
         Scanner sc = new Scanner(System.in);
 
         n = sc.nextInt();
         m = sc.nextInt();
-        map = new HashMap<>();
 
+        list = new ArrayList[n + 1];
         visited = new boolean[n + 1];
-
         for (int i = 1; i <= n; i++) {
-            map.put(i, new ArrayList<>());
+            list[i] = new ArrayList<>();
         }
 
         for (int i = 0; i < m; i++) {
             int u = sc.nextInt();
             int v = sc.nextInt();
 
-            map.get(u).add(v);
-            map.get(v).add(u);
+            list[u].add(v);
+            list[v].add(u);
         }
 
         int cnt = 0;
         for (int i = 1; i <= n; i++) {
             if (!visited[i]) {
-                run(i);
+                dfs(i);
                 cnt++;
             }
         }
@@ -39,12 +38,12 @@ class Main {
         System.out.println(cnt);
     }
 
-    private static void run(int start) {
+    private static void dfs(int start) {
         visited[start] = true;
 
-        for (int next : map.get(start)) {
+        for (int next : list[start]) {
             if (!visited[next]) {
-                run(next);
+                dfs(next);
             }
         }
     }
