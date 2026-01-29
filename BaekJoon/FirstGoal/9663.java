@@ -4,8 +4,8 @@ import java.util.*;
 class Main {
 
     static int n;
-    static int answer = 0;
     static int[] arr;
+    static int answer = 0;
 
     public static void main(String[] args) throws IOException {
         Scanner sc = new Scanner(System.in);
@@ -13,7 +13,8 @@ class Main {
         n = sc.nextInt();
         arr = new int[n];
 
-        // 서로 공격할 수 없게 = 상하좌우, 대각선 겹치는것 없게
+        // 같은 행,열,대각선 불가능
+
         dfs(0);
         System.out.println(answer);
     }
@@ -32,15 +33,16 @@ class Main {
         }
     }
 
-    private static boolean isOkay(int col) {
-        for (int i = 0; i < col; i++) {
-            if (arr[i] == arr[col]) {
+    private static boolean isOkay(int c) {
+        for (int i = 0; i < c; i++) {
+            if (arr[i] == arr[c]) {
                 return false;
-            } else if (Math.abs(i - col) == Math.abs(arr[i] - arr[col])) {
+            } else if (Math.abs(i - c) == Math.abs(arr[i] - arr[c])) {
                 return false;
             }
         }
 
         return true;
     }
+
 }

@@ -3,58 +3,54 @@ import java.util.*;
 
 class Main {
 
-    static char[] arr1;
-    static char[] arr2;
-
-    static int[][] dp1;
-    static int[][] dp2;
-
-    static int n, m;
+    static char[] c1;
+    static char[] c2;
+    static int[][] dp;
 
     public static void main(String[] args) throws IOException {
         Scanner sc = new Scanner(System.in);
 
-        arr1 = sc.next().toCharArray();
-        arr2 = sc.next().toCharArray();
-        n = arr1.length;
-        m = arr2.length;
+        c1 = sc.next().toCharArray();
+        c2 = sc.next().toCharArray();
 
-        dp1 = new int[n][m];
-        dp2 = new int[n + 1][m + 1];
-        for (int i = 0; i < n; i++) {
-            Arrays.fill(dp1[i], -1);
-        }
+        // ACAYKP
+        // CAPCAK
 
-        // dp2[i][j] -> arr1 인덱스 i-1까지, arr2 인덱스 j-1까지 봤을때 최장 길이
-        for (int i = 1; i <= n; i++) {
-            for (int j = 1; j <= m; j++) {
-                if (arr1[i - 1] == arr2[j - 1]) {
-                    dp2[i][j] = dp2[i - 1][j - 1] + 1;
-                } else {
-                    dp2[i][j] = Math.max(dp2[i - 1][j], dp2[i][j - 1]);
+        // 011111
+        // 111222
+        // 111233
+
+        dp = new int[c1.length + 1][c2.length + 1];
+        // dp[i][j] -> c1의 i까지, c2의 j까지 보았을때 최장 길이
+
+        for (int i = 1; i <= c1.length; i++) {
+            for (int j = 1; j <= c2.length; j++) {
+                if (c1[i - 1] == c2[j - 1])
+                    dp[i][j] = dp[i - 1][j - 1] + 1;
+                else {
+                    dp[i][j] = Math.max(dp[i - 1][j], dp[i][j - 1]);
                 }
             }
         }
 
-        System.out.println(dp2[n][m]);
-        // System.out.println(lcs(n - 1, m - 1));
+        System.out.println(dp[c1.length][c2.length]);
     }
 
-    private static int lcs(int x, int y) {
-        if (x == -1 || y == -1) {
-            return 0;
-        }
+    // private static int lcs(int x, int y) {
+    // if (x == -1 || y == -1) {
+    // return 0;
+    // }
 
-        if (dp1[x][y] == -1) {
-            dp1[x][y] = 0;
+    // if (dp[x][y] == null) {
+    // dp[x][y] = 0;
 
-            if (arr1[x] == arr2[y]) {
-                dp1[x][y] = lcs(x - 1, y - 1) + 1;
-            } else {
-                dp1[x][y] = Math.max(lcs(x - 1, y), lcs(x, y - 1));
-            }
-        }
+    // if (c1[x] == c2[y]) {
+    // dp[x][y] = lcs(x - 1, y - 1) + 1;
+    // } else {
+    // dp[x][y] = Math.max(lcs(x, y - 1), lcs(x - 1, y));
+    // }
+    // }
 
-        return dp1[x][y];
-    }
+    // return dp[x][y];
+    // }
 }
