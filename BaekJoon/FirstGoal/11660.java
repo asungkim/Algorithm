@@ -28,13 +28,27 @@ class Main {
             }
         }
 
+        // for (int i = 1; i <= n; i++) {
+        // for (int j = 1; j <= n; j++) {
+        // System.out.print(sum[i][j] + " ");
+        // }
+        // System.out.println();
+        // }
+
         for (int i = 0; i < m; i++) {
-            // (x1,y1) ~ (x2,y2)
             int x1 = sc.nextInt();
             int y1 = sc.nextInt();
             int x2 = sc.nextInt();
             int y2 = sc.nextInt();
-            System.out.println(sum[x2][y2] - sum[x2][y1 - 1] - sum[x1 - 1][y2] + sum[x1 - 1][y1 - 1]);
+
+            // (x1,y1) ~ (x2,y2)
+            // (2,2) ~ (3,4)
+            // sum[3][4]-sum[1][4]-sum[3][1]+sum[1][1]
+            System.out.println(sum[x2][y2] - sum[x1 - 1][y2] - sum[x2][y1 - 1] + sum[x1 - 1][y1 - 1]);
         }
+
+        // sum[2][2]=sum[1][2]+sum[2][1]-sum[1][1]+arr[2][2]
+        // sum[2][3]=sum[2][2]+sum[1][3]-sum[1][2]+arr[2][3]
+
     }
 }
