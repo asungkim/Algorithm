@@ -5,51 +5,51 @@ class Main {
 
     static int k, n;
     static int[] arr;
-    static int maxLen = -1;
+    static int max = -1;
 
     public static void main(String[] args) throws IOException {
         Scanner sc = new Scanner(System.in);
 
-        // 제각각 k개 랜선 -> 같은길이 n개 랜선
-        // 최대 랜선의 길이
         k = sc.nextInt();
         n = sc.nextInt();
-        arr = new int[k];
 
+        arr = new int[k];
         for (int i = 0; i < k; i++) {
             arr[i] = sc.nextInt();
-            maxLen = Math.max(maxLen, arr[i]);
+            max = Math.max(max, arr[i]);
         }
 
         System.out.println(binarySearch());
     }
 
-    private static long count(long cm) {
-        long sum = 0;
-        for (int i = 0; i < k; i++) {
-            sum += (arr[i] / cm);
+    private static long binarySearch() {
+        long l = 1;
+        long r = arr[k - 1];
+        long answer = -1;
+
+        // 401 -> 1 1 1 2
+        // 200 -> 4 3 2 2
+
+        while (l <= r) {
+            long mid = (l + r) / 2;
+
+            if (count(mid) >= n) {
+                answer = Math.max(answer, mid);
+                l = mid + 1;
+            } else {
+                r = mid - 1;
+            }
         }
-        return sum;
+
+        return answer;
     }
 
-    private static long binarySearch() {
-        long left = 1;
-        long right = maxLen;
-        long maxCm = -1;
-
-        while (left <= right) {
-            long mid = (left + right) / 2;
-            long cnt = count(mid);
-
-            if (cnt >= n) {
-                maxCm = Math.max(maxCm, mid);
-                left = mid + 1;
-            } else {
-                right = mid - 1;
-            }
-
+    private static long count(long cm) {
+        long cnt = 0;
+        for (int i = 0; i < k; i++) {
+            cnt += (arr[i] / cm);
         }
 
-        return maxCm;
+        return cnt;
     }
 }
